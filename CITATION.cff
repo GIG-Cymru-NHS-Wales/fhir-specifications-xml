@@ -1,0 +1,34 @@
+cff-version: 1.0.0
+title: FHIR specifications XML
+message: >-
+  FHIR specifications using XML, with definitions, examples, and
+  validations. These files come from the HL7 FHIR website downloads.
+
+  This repository is thanks to HL7.
+  
+  https://www.hl7.org/
+
+  This repository contains HL7 FHIR specifications
+  that are downloadable from the HL7 website.
+
+  https://www.hl7.org/fhir/downloads.html
+
+type: software
+authors:
+  - given-names: Joel Parker
+    family-names: Henderson
+    email: joel.henderson@wales.nhs.uk
+    affiliation: wales.nhs.uk
+    orcid: 'https://orcid.org/0009-0000-4681-282X'
+identifiers:
+  - type: url
+    value: 'https://github.com/gig-cymru-nhs-wales/fhir-specifications-xml/'
+    description: >-
+      FHIR specifications using XML, with definitions, examples, and
+      validations. These files come from the HL7 FHIR website downloads.
+
+repository-code: 'https://github.com/gig-cymru-nhs-wales/fhir-specifications-xml/'
+abstract: >-
+    FHIR specifications using XML, with definitions, examples, and
+    validations. These files come from the HL7 FHIR website downloads.
+license: See license file
