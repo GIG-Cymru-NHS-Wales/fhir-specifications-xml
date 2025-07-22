@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><MedicationStatement xmlns="http://hl7.org/fhir">
+  <id value="example008"/>
+  
+  <meta>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <text><status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="example008"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement "example008" </p></div><p><b>status</b>: recorded</p><h3>Medications</h3><table class="grid"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><span title="  Linked to a RESOURCE Medication  "><a name="med0309"> </a></span><blockquote><p/><p><a name="med0309"> </a></p><p><b>code</b>: Nigroglycerin patch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.1.0/CodeSystem-v3-ndc.html">National drug codes</a>#358793)</span></p><p><b>doseForm</b>: Nitroglycerin 200 microgram/hour prolonged-release transdermal patch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#376251004)</span></p></blockquote></td></tr></table><p><b>subject</b>: <a href="patient-example-a.html">Patient/pat1: Donald Duck</a> "Donald DUCK"</p><p><b>note</b>: Patient reports they used the given patches over the last 30 days</p><blockquote><p><b>dosage</b></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote></div></text><contained>
+    <Medication>
+    <id value="med0309"/>
+      <code>
+        <coding>
+          <system value="http://hl7.org/fhir/sid/ndc"/>
+          <code value="358793"/>
+          <display value="Nigroglycerin patch"/>
+        </coding>
+      </code>
+        <doseForm>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="376251004"/>
+            <display value="Nitroglycerin 200 microgram/hour prolonged-release transdermal patch"/>
+          </coding>
+        </doseForm>
+      
+    </Medication>
+  </contained>
+  <status value="recorded"/>
+  <medication>     <!--   Linked to a RESOURCE Medication   -->
+    <reference>
+    <reference value="#med0309"/>
+    </reference>
+  </medication> 
+  <subject>
+    <reference value="Patient/pat1"/>
+    <display value="Donald Duck"/> 
+  </subject>
+  <note>
+    <text value="Patient reports they used the given patches over the last 30 days"/>
+  </note>
+  <dosage>
+  <doseAndRate>
+    <doseQuantity>
+      <value value="1"/>
+      <unit value="patch"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"/>
+      <code value="TPATH24"/>
+    </doseQuantity>
+  </doseAndRate>
+  </dosage>
+
+</MedicationStatement>

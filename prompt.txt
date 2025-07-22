@@ -1,0 +1,11 @@
+
+Explain FHIR specification XML files:
+- conceptmaps.xml
+- dataelements.xml
+- fhir-all-xsd.zip
+- profiles-others.xml
+- profiles-resources.xml
+- profiles-types.xml
+- search-parameters.xml
+- valuesets.xml
+- version.info

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><Device xmlns="http://hl7.org/fhir">    <!--  text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>example</p>
+    </div>
+  </text  --><id value="device-example-specimen-container-example-sst-vacutainer"/>
+	<meta>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <text><status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Device</b><a name="device-example-specimen-container-example-sst-vacutainer"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Device "device-example-specimen-container-example-sst-vacutainer" </p></div><p><b>identifier</b>: id: 345679</p><p><b>displayName</b>: SST Tube</p><blockquote><p><b>property</b></p><p><b>type</b>: Container Type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (codes#container-type)</span></p><p><b>value</b>: SST Tube <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (types#SST)</span></p></blockquote><blockquote><p><b>property</b></p><p><b>type</b>: Amount <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (codes#amount)</span></p><p><b>value</b>: 4.5 mL <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (capacities#4.5mL)</span></p></blockquote><blockquote><p><b>property</b></p><p><b>type</b>: Additive <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (codes#additive)</span></p><p><b>value</b>: gel <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (additive#gel)</span></p></blockquote></div></text><identifier>
+    <system value="http://acme.com/containers/id"/>
+    <value value="345679"/>
+  </identifier>
+  <displayName value="SST Tube"/>
+  <property>
+    <type>
+	   <coding>
+				<system value="http://acme.com/containers/codes"/>
+				<code value="container-type"/>
+				<display value="Container Type"/>
+		</coding>
+	</type>
+	<valueCodeableConcept>
+	    <coding>
+				<system value="http://acme.com/containers/types"/>
+				<code value="SST"/>
+				<display value="SST Tube"/>
+			</coding>
+	</valueCodeableConcept>
+  </property>
+  <property>
+    <type>
+		<coding>
+				<system value="http://acme.com/containers/codes"/>
+				<code value="amount"/>
+				<display value="Amount"/>
+		</coding>
+	</type>
+	<valueCodeableConcept>
+		<coding>
+				<system value="http://acme.com/containers/capacities"/>
+				<code value="4.5mL"/>
+				<display value="4.5 mL"/>
+			</coding>
+	</valueCodeableConcept>
+  </property>
+  <property>
+    <type>
+			<coding>
+				<system value="http://acme.com/containers/codes"/>
+				<code value="additive"/>
+				<display value="Additive"/>
+		</coding>
+		</type>
+		<valueCodeableConcept>
+		<coding>
+				<system value="http://acme.com/containers/additive"/>
+				<code value="gel"/>
+				<display value="gel"/>
+			</coding>
+		</valueCodeableConcept>
+  </property>
+</Device>

@@ -1,0 +1,26 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "conceptmaps.json",
+        "conceptmaps.xml",
+        "dataelements.json",
+        "dataelements.xml",
+        "FHIR",
+        "profiles-others.json",
+        "profiles-others.xml",
+        "profiles-resources.json",
+        "profiles-resources.xml",
+        "profiles-types.json",
+        "profiles-types.xml",
+        "search-parameters.json",
+        "search-parameters.xml",
+        "valuesets.json",
+        "valuesets.xml",
+        "version.info"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
